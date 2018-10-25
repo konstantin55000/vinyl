@@ -1,0 +1,20 @@
+ 	<script>
+		$(function(){
+			$(".fancybox").fancybox();
+		});
+		
+		var App;
+		App = {
+			ProductCode : "{ProductCode}",
+			BundleQuantity : "{if BundleQuantity}{BundleQuantity}{else}1{/if}",
+			MerchantURL : "{MerchantURL}"
+		};
+		
+	</script>
+	
+	<div class="container">
+		<div class="block">
+			{include field="EbayDescription"}
+		</div>
+	</div>	
+

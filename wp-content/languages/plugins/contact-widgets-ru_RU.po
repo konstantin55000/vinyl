@@ -1,0 +1,255 @@
+# Translation of Plugins - Contact Widgets - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Contact Widgets - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-09-04 17:12:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Contact Widgets - Stable (latest release)\n"
+
+#: includes/social-networks.php:172
+msgid "Unsplash"
+msgstr "Unsplash"
+
+#. translators: 1. Title of website (e.g. My Cat Blog), 2. Name of social
+#. network (e.g. Facebook)
+#: includes/class-social.php:170
+msgid "Visit %1$s on %2$s"
+msgstr "Посетите %1$s в %2$s"
+
+#: includes/social-networks.php:39
+msgid "RSS feed"
+msgstr "RSS feed"
+
+#: includes/social-networks.php:64
+msgid "500px"
+msgstr "500px"
+
+#: includes/class-base-widget.php:491
+msgid "Edit"
+msgstr "Изменить"
+
+#: includes/class-social.php:28
+msgid "Social Profiles"
+msgstr "Социальные сети"
+
+#: includes/class-social.php:22
+msgid "Display links to your social media profiles."
+msgstr "Показывает ссылки на ваши профили в социальных сетях."
+
+#: includes/class-contact.php:35
+msgid "Contact Details"
+msgstr "Контактная информация"
+
+#. Author URI of the plugin/theme
+msgid "https://godaddy.com"
+msgstr "https://godaddy.com"
+
+#. Author of the plugin/theme
+msgid "GoDaddy"
+msgstr "\tGoDaddy"
+
+#: includes/social-networks.php:152
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: includes/social-networks.php:157
+msgid "Twitch"
+msgstr "Twitch"
+
+#: includes/social-networks.php:162
+msgid "VK"
+msgstr "Вконтакте"
+
+#. Plugin Name of the plugin/theme
+msgid "Contact Widgets"
+msgstr "Contact Widgets"
+
+#: includes/social-networks.php:166
+msgid "Trello"
+msgstr "Trello"
+
+#. Description of the plugin/theme
+msgid "Beautifully display social media and contact information on your website with these simple widgets."
+msgstr "Показывайте ваши социальные профили и контактную информацию на своем веб-сайте с помощью этих простых виджетов."
+
+#: includes/social-networks.php:147
+msgid "Medium"
+msgstr "Средний"
+
+#: includes/social-networks.php:138
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: includes/social-networks.php:143
+msgid "WeChat"
+msgstr "WeChat"
+
+#: includes/social-networks.php:114
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/social-networks.php:119
+msgid "Vine"
+msgstr "Vine"
+
+#: includes/social-networks.php:133
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: includes/social-networks.php:129
+msgid "XING"
+msgstr "XING"
+
+#: includes/social-networks.php:124
+msgid "reddit"
+msgstr "reddit"
+
+#: includes/social-networks.php:110
+msgid "Amazon"
+msgstr "Amazon"
+
+#: includes/social-networks.php:105
+msgid "Yelp"
+msgstr "Yelp"
+
+#: includes/social-networks.php:91
+msgid "SoundCloud"
+msgstr "SoundCloud"
+
+#: includes/social-networks.php:100
+msgid "WordPress"
+msgstr "WordPress"
+
+#: includes/social-networks.php:96
+msgid "TripAdvisor"
+msgstr "TripAdvisor"
+
+#: includes/social-networks.php:69
+msgid "Foursquare"
+msgstr "FourSquare"
+
+#: includes/social-networks.php:74
+msgid "GitHub"
+msgstr "GitHub"
+
+#: includes/social-networks.php:84
+msgid "Skype"
+msgstr "Skype"
+
+#: includes/social-networks.php:79
+msgid "Slack"
+msgstr "Slack"
+
+#: includes/social-networks.php:54
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: includes/social-networks.php:59
+msgid "Flickr"
+msgstr "Flickr"
+
+#: includes/social-networks.php:48
+msgid "YouTube"
+msgstr "ЮТуб"
+
+#: includes/social-networks.php:43
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/social-networks.php:34
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: includes/social-networks.php:28
+msgid "Google+"
+msgstr "Гугл+"
+
+#: includes/social-networks.php:22
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/social-networks.php:17
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/social-networks.php:11
+msgctxt "Must be lowercase and use url-safe characters"
+msgid "company"
+msgstr "компания"
+
+#: includes/social-networks.php:10
+msgctxt "Must be lowercase and use url-safe characters"
+msgid "channel"
+msgstr "канал"
+
+#: includes/class-contact.php:211 includes/class-social.php:239
+msgid "Display labels?"
+msgstr "Показывать метки?"
+
+#: includes/class-contact.php:208
+msgid "A physical address where website visitors can go to visit you in person."
+msgstr "Физический адрес, по которому посетители сайта могут лично посетить вас."
+
+#: includes/class-contact.php:221
+msgid "Display map of address?"
+msgstr "Показывать адрес на карте?"
+
+#: includes/social-networks.php:9
+msgctxt "Must be lowercase and use url-safe characters"
+msgid "username"
+msgstr "имя-пользователя"
+
+#: includes/social-networks.php:12
+msgctxt "Must be lowercase and use url-safe characters"
+msgid "board"
+msgstr "доска"
+
+#: includes/class-contact.php:194
+msgid "Fax:"
+msgstr "Факс:"
+
+#: includes/class-contact.php:189
+msgid "Phone:"
+msgstr "Телефон:"
+
+#: includes/class-contact.php:199
+msgid "Address:"
+msgstr "Адрес:"
+
+#: includes/class-contact.php:196
+msgid "A fax number that website visitors can use to send important documents."
+msgstr "Номер факса, который посетители веб-сайта могут использовать для отправки важных документов."
+
+#: includes/class-contact.php:186
+msgid "An email address where website visitors can contact you."
+msgstr "Адрес электронной почты, по которомому посетители сайта могут связаться с вами."
+
+#: includes/class-contact.php:191
+msgid "A phone number that website visitors can call if they have questions."
+msgstr "Номер телефона, по которому посетители сайта могут с вами связаться, если у них есть вопросы."
+
+#: includes/class-contact.php:179
+msgid "Email:"
+msgstr "E-mail:"
+
+#: includes/class-contact.php:174 includes/class-social.php:229
+msgid "The title of widget. Leave empty for no title."
+msgstr "Заголовок виджета. Можете оставить поле пустым."
+
+#: includes/class-contact.php:173 includes/class-social.php:228
+msgid "Title:"
+msgstr "Название:"
+
+#. translators: Minumum PHP version supported.
+#: contact-widgets.php:153
+msgid "Contact widgets requires PHP version %s or higher. Please deactivate the plugin and contact your system administrator."
+msgstr "Для работы Contact widgets требуется версия PHP %s или выше. Деактивируйте плагин и обратитесь к системному администратору."
+
+#: includes/class-contact.php:29
+msgid "Display your contact information."
+msgstr "Показывает вашу контактную информацию."

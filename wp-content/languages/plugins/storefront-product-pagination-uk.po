@@ -1,0 +1,73 @@
+# Translation of Plugins - Storefront Product Pagination - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - Storefront Product Pagination - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-11-07 20:37:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - Storefront Product Pagination - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://woothemes.com/"
+msgstr "http://woothemes.com/"
+
+#. Author of the plugin/theme
+msgid "WooThemes"
+msgstr "WooThemes"
+
+#. Plugin URI of the plugin/theme
+msgid "http://woothemes.com/storefront/"
+msgstr "http://woothemes.com/storefront/"
+
+#. Description of the plugin/theme
+msgid "Add unobstrusive links to next/previous products on your WooCommerce single product pages."
+msgstr "Додавання ненав'язливих посилань на наступні/попередні товари на сторінках товарів WooCommerce."
+
+#. Plugin Name of the plugin/theme
+msgid "Storefront Product Pagination"
+msgstr "Storefront Product Pagination"
+
+#: classes/class-storefront-product-pagination.php:335
+msgid "More products"
+msgstr "Інші продукти"
+
+#: classes/class-storefront-product-pagination.php:247
+msgid "When enabled, pagination will only display links to products in the same category as the one currently being viewed."
+msgstr "Коли це налаштування ввімкнено, відображаються тільки посилання на товари, що належать до тієї ж категорії, що і продукт який зараз переглядається."
+
+#: classes/class-storefront-product-pagination.php:246
+msgid "Display products in same category"
+msgstr "Показувати товари в тій же категорії"
+
+#: classes/class-storefront-product-pagination.php:232
+msgid "Background color for the product pagination links"
+msgstr "Колір фону для посилань на товари"
+
+#: classes/class-storefront-product-pagination.php:231
+msgid "Background color"
+msgstr "Колір фону"
+
+#: classes/class-storefront-product-pagination.php:217
+msgid "Product Pagination"
+msgstr "Product Pagination"
+
+#: classes/class-storefront-product-pagination.php:203
+msgid "Install Storefront now"
+msgstr "Встановити Storefront"
+
+#: classes/class-storefront-product-pagination.php:203
+msgid "Storefront Product Pagination requires that you use Storefront as your parent theme."
+msgstr "Storefront Product Pagination вимагає використання Storefront в якості батьківської теми."
+
+#: classes/class-storefront-product-pagination.php:102
+#: classes/class-storefront-product-pagination.php:111
+msgid "Cheatin&#8217; huh?"
+msgstr "Хакер чи що?"
+
+#: classes/class-storefront-product-pagination.php:132
+msgid "%sThanks for installing the Storefront Product Pagination extension. Configure the settings in the %sCustomizer%s.%s %sOpen the Customizer%s"
+msgstr "%sДякуємо за встановлення розширення Storefront Product Pagination. Задайте налаштування в %sCustomizer%s.%s %sВідкрити Customizer%s"
