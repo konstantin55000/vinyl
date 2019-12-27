@@ -21,11 +21,28 @@ require_once( 'inc/class-boutique.php' );
 require_once( 'inc/class-boutique-customizer.php' );
 require_once( 'inc/class-boutique-template.php' );
 require_once( 'inc/class-boutique-integrations.php' );
+ 
+//if(is_page('checkout')){
+//add_action('wp_enqueue_scripts', 'custom_checkout');
+//}
 
-/**
- * Do not add custom code / snippets here.
- * While Child Themes are generally recommended for customisations, in this case it is not
- * wise. Modifying this file means that your changes will be lost when an automatic update
- * of this theme is performed. Instead, add your customisations to a plugin such as
- * https://github.com/woothemes/theme-customisations
- */
+function custom_checkout(){
+    wp_enqueue_script('custom-checkout', get_template_directory_uri() . '/js/checkout/form-checkout-custom.js');
+    //var_dump(get_template_directory_uri() . '/js/checkout/form-checkout-custom.js');
+}
+
+ function custom_checkout_enqueue_script() {
+    wp_deregister_script('wc-checkout');
+    wp_register_script('wc-checkout', get_bloginfo( 'stylesheet_directory' ). '/js/checkout/checkout.js' , array( 'jquery' ), WC_VERSION, TRUE);
+    wp_enqueue_script('wc-checkout');
+}
+	
+add_action( 'wp_enqueue_scripts', 'custom_checkout_enqueue_script' );
+
+function remove_footer_admin () {
+ 
+echo '© Vinyl Evolution 2015';
+ 
+}
+ 
+add_filter('admin_footer_text', 'remove_footer_admin', 100);

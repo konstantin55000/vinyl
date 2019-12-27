@@ -1,0 +1,44 @@
+$payment_details = $_REQUEST['values'];
+    
+   
+    
+     $payment_details['first_name']  = $_REQUEST['billing_holdername'];    
+     $payment_details['last_name'] = $_REQUEST['billing_holderlastname'];
+     $payment_details['CC_Number'] = $_REQUEST['billing_cardnumber'];
+     $payment_details['CC_MM'] = $_REQUEST['billing_cardmonth'];
+     $payment_details['CC_YY'] = $_REQUEST['billing_cardyear'];
+     $payment_details['CC_CVV'] = $_REQUEST['billing_code'];
+     $payment_details['phone'] = $_REQUEST['billing_phone'];
+    
+   
+ 
+   if(!values_are_valid($payment_details)) {
+       print_r(json_encode($payment_details));
+       die;
+   };
+
+    $order = new EffectiveWritingOrder($payment_details);
+
+    $cardcom = new EffectiveWritingCardComPayment($order);
+
+    $result = $cardcom->charge_credit_card($payment_details);
+   // var_dump($result);
+   
+    if($result) {
+        $order->set_order_completed();        
+        $data = array(
+            'result'    => 'success',
+            'wc_order_id' => $order->get_order_id(),
+            'price' => $order->get_total_sum(),
+            'response' => $result,
+            'redirect'  => $this->get_return_url( $order ),
+        );
+        //var_dump('data', $data);
+        //echo "{result' : 'success', 'redirect': '".$this->get_return_url( $order )."' , 'data':  ".json_encode($data)."";       
+        return $data; 
+        //die;
+    } else {
+        $order->set_order_failed(); 
+         echo "{result' : 'failure', 'sobaka': 1, 'data':  ".json_encode($data)."";
+      }
+      die;
